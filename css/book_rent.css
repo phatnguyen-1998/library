@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    white-space: nowrap;
+    background-color: #707070;
+    width: 240px;
+    height: 100vh;
+}
+
+.title {
+    margin-left: 70px;
+    color: #FFFFFF;
+}
+
+.header_menu {
+    list-style: none;
+    padding: 0;
+}
+
+.header_menu li {
+    width: 220px;
+    padding: 10px 0;
+    margin-left: 5px;
+}
+
+.logout {
+    position: absolute;
+    bottom: 20px;
+    width: 220px;
+}
+
+.header_menu .menu_style {
+    font-size: 1.2rem;
+    color: #aaa;
+    display: block;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    text-decoration: none;
+}
+
+.menu_hover:hover {
+    color: #04A9F3;
+    border-left: #04A9F3 5px solid;
+}
+
+.header_menu li:last-child {
+    border-top: #aaa 1px solid;
+}
+.ability {
+    background-color:#707070 ;
+    height: 75px;
+    width:auto;
+    margin-left: 239px;
+    
+    
+}
+.ability .Top{
+    display: flex;
+}
+.title_main {
+    
+  
+    
+    text-align: center;
+    width: 100%;
+    
+}
+.title_main h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;
+}
+.title_main a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+.shibomi ul{
+    text-align: right;
+    
+    list-style-type: none;
+}
+.ability div ul li select{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12pt;
+    width: 178px;
+}
+.ability div ul li input{
+    height: 25px;
+}
+button {
+    background-color: white; /* màu của Quản trị mạng ^^ */
+    border-color: #04A9F3;
+    color:#04A9F3;
+    
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+button:hover{
+    color: #04A9F3;
+    border-left: #04A9F3 5px solid;
+}
+
+
+.column{
+   
+    color: white;
+    font-size: 19px;
+    
+}
+.object {
+    margin-left: 100px;
+}
+.approval_day {
+    margin-left: 300px;
+}
+.limit {
+    margin-left: 200px;
+}
+.name {
+    margin-left: 200px;
+}
